@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="shortcut icon" href="/skill-O-maniac/images/sm.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body{
+            font-family: 'Signika Negative', sans-serif;
+        }
+        @media (min-width: 360px) {
+            header{
+                max-height: auto;
+                display: flex;
+                flex: wrap;
+                font-size: 20px;
+            }
+            #header_logo{
+                height: 120px;
+            }
+            #blog_head{
+                padding: 20px;
+                padding-top: 0px;
+                max-height: 120px;
+            }
+        }
+        @media (min-width: 800px) {
+            header{
+                max-height: auto;
+                display: flex;
+                flex: wrap;
+                font-size: 20px;
+            }
+            #header_logo{
+                height: 120px;
+                padding-left: 50px;
+            }
+            #blog_head{
+                padding: 20px;
+                padding-top: 0px;
+                max-height: 120px;
+                padding-left: 50px;
+            }
+            #blog_posts{
+                padding-left: 40px;
+                max-width: 800px;
+            }
+            #contact{
+                padding-left: 40px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="h-14 text-black"><p class="pt-2 pl-5">Welcome to skill-O-maniac! &#10024</p></header>
+    <div class="bg-gradient-to-r from-yellow-800 via-yellow-400 to-yellow-300 h-16 py-20">
+    </div>
+    <img src="/skill-O-maniac/images/sm.png" id="header_logo" alt="" class="relative bottom-10 pl-5 ">
+    <div id="blog_head" class=""><h1 class="text-2xl flex flex-wrap">The skill-O-maniac Blog &#10024</h1> <br>
+        <div class="pb-7">
+        <a target="_blank" rel="" class="flex hover:border-2 border-yellow-600 rounded-lg max-w-max hover:scale-105 p-2"><img src="/skill-O-maniac/images/yt.png" alt="" class="h-6 w-8 pr-3" >Subscribe to our Podcast</a>
+        <a href="/blog/archives.html" rel="" class="flex hover:border-2 border-yellow-600 rounded-lg max-w-max hover:scale-105 p-2">&#128214;
+            &nbsp; Archives</a>
+    </div>
+    <hr>
+        <br>
+    </div>
+    <section id="blog_posts" class="pt-6">
+        <div id="5-myths-about-coding" class="p-5 pt-20 pb-10">
+            <a href="/blog/posts/5-myths-about-coding.html" rel="noopener noreferrer" class="text-xl hover:text-yellow-600">5 Myths About Coding and Developers</a>
+            <p id="date" class="text-gray-500 text-sm ">Saturday, Feb 12, 2022</p> <br>
+            <p>1. CODING IS FOR GENIUSES <br>
+                You might have heard from people that coding requires a high IQ or you need to be really good at math. Honestly, it’s just a myth. If you have a good logic and if you can practice anything constantly, you can become a really good developer or coder...</p>
+                <a href="/blog/posts/5-myths-about-coding.html" class="text-transparent bg-clip-text bg-gradient-to-br from-yellow-800 to-yellow-400">Read More ></a>
+        </div>
+        <hr>
+    </section>
+    <a href="mailto:example@gmail.com" class="relative left-3 max-h-2 p-2 pb-5 pt-5 flex flex-wrap space-x-2" id="contact"><img src="/skill-O-maniac/images/email.png" alt="" class="h-7 w-7"><p>Contact Us</p></a> <br> <br>
+    <footer class="bg-black p-6 text-white">&#169; Created by Ayush Gaikwad</footer>
+</body>
+</html>
